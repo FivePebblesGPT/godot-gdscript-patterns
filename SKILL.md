@@ -102,6 +102,22 @@ References:
 - [Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html)
 - [Cases where you can't specify types](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html#cases-where-you-can-t-specify-types)
 
+## Official Godot Demo Projects
+
+For practical examples of how Godot features work together, consult the
+[official Godot demo projects](https://github.com/godotengine/godot-demo-projects).
+The demos provide runnable projects showing scene trees, node configuration,
+signals, input, and complete implementations. When an example is relevant,
+inspect the project's `project.godot`, scene files (`.tscn`), and scripts
+rather than relying on an isolated snippet.
+
+Choose the demo repository branch matching the project's **stable Godot
+version**; the demo repository's default `master` branch targets Godot's
+development version and may not work with the installed stable editor.
+Treat demos as reference implementations, not mandatory architecture. Adapt
+patterns to the project's needs and this skill's static typing rules rather
+than copying dynamically typed code unchanged.
+
 ## Detailed patterns and worked examples
 
 Detailed pattern documentation lives in `references/details.md`. Read that file when the navigation tier above is insufficient.
