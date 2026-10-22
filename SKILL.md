@@ -98,10 +98,6 @@ boundaries*, even when the outer variable is declared as `Dictionary`.
 Validate their values with `is`, use explicit conversion at the boundary,
 and avoid using `Variant` for values whose concrete types are known.
 
-References:
-- [Static typing in GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html)
-- [Cases where you can't specify types](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/static_typing.html#cases-where-you-can-t-specify-types)
-
 ## Official Godot Demo Projects
 
 For practical examples of how Godot features work together, consult the
